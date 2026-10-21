@@ -79,3 +79,30 @@ Before using or redistributing the dataset, we will review the dataset card and 
 ### Backup Dataset
 
 If the primary dataset cannot be accessed or used as intended, we will consider the [Cornell Movie Review Data](https://www.cs.cornell.edu/people/pabo/movie-review-data/) as a backup, subject to verifying its availability and suitability.
+
+## 8. Feasibility and Immediate Next Steps
+
+### Minimum Viable Project
+
+We will load labeled movie reviews, convert the text into numerical features using TF-IDF, and train a Logistic Regression model to classify reviews as positive or negative. We will evaluate the model using accuracy, precision, recall, and F1-score and compare its performance with a simple baseline.
+
+### Data Access and Risks
+
+We have confirmed that the IMDb dataset page is accessible but still need to test loading the data in Python. The main challenge may be misclassifying reviews containing sarcasm or mixed opinions. If the dataset cannot be used, we will investigate the Cornell Movie Review Data as a backup.
+
+### Immediate Next Steps
+
+1. **Prisha Shah:** Load the dataset in Python and verify its text and sentiment labels by October 22, 2026.
+2. **Laura Botnaru:** Review the dataset documentation and usage conditions by October 22, 2026.
+
+## 9. Possible Method and Evaluation
+
+We plan to use TF-IDF to represent review text numerically and Logistic Regression to classify sentiment. We will compare the model with a simple baseline and evaluate its accuracy, precision, recall, and F1-score on held-out reviews. We will also examine a few incorrect predictions to understand the model's limitations.
+
+## 10. Questions for the Instructor
+
+Is our proposed approach using TF-IDF and Logistic Regression appropriate for this project? Are there any additional analyses you would recommend to strengthen our final project?
+
+## 11. AI-Use Statement
+
+We used ChatGPT to brainstorm our project topic, organize the README, and plan our initial methods. We reviewed and adapted its suggestions to fit our project. We will verify the dataset information, test our code, and evaluate the model results ourselves.
