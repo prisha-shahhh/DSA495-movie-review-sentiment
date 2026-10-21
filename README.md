@@ -1,5 +1,5 @@
 # DSA495-movie-review-sentiment
-DSA 495 text analysis project: movie review sentiment classification
+DSA 495 Text-Analysis Project: Movie Review Sentiment Classification
 
 # Movie Review Sentiment Classification Using Machine Learning
 
