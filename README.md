@@ -92,8 +92,11 @@ We have confirmed that the IMDb dataset page is accessible but still need to tes
 
 ### Immediate Next Steps
 
-1. **Prisha Shah:** Load the dataset in Python and verify its text and sentiment labels by October 22, 2026.
-2. **Laura Botnaru:** Review the dataset documentation and usage conditions by October 22, 2026.
+1. **Prisha Shah:** Load the IMDb dataset, prepare the review text, and build the initial sentiment classification model by November 1, 2026.
+2. **Laura Botnaru:** Review the dataset documentation, verify usage conditions, and help evaluate the model's results by November 8, 2026.
+3. **Both team members:** Analyze model performance and document findings by November 15, 2026.
+4. **Both team members:** Create the project poster and organize the GitHub repository by November 22, 2026.
+5. **Both team members:** Review and finalize the poster and repository by November 24, 2026, ahead of the November 25 deadline.
 
 ## 9. Possible Method and Evaluation
 
