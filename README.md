@@ -41,3 +41,41 @@ This project will allow us to apply text preprocessing, feature extraction, and 
 The project will produce a reproducible Python workflow that takes movie review text as input and predicts whether the sentiment is positive or negative. The workflow will include data preparation, text feature extraction, model training, and evaluation on reviews not used during training.
 
 The intended output is a trained sentiment classifier and an evaluation summary reporting accuracy, precision, recall, and F1-score. We will consider the project successful if the model performs better than a simple baseline that always predicts the most common sentiment class on held-out reviews. We will also document classification errors and limitations, including cases where sarcasm, mixed opinions, or ambiguous language make sentiment difficult to identify.
+
+## 7. Preferred Data
+
+### Primary Dataset
+
+We plan to use the [IMDb Large Movie Review Dataset](https://huggingface.co/datasets/stanfordnlp/imdb), accessed through the Hugging Face Datasets library. The dataset was introduced by Maas et al. (2011) for research on sentiment classification.
+
+### Data Source and Size
+
+The dataset contains 50,000 labeled movie reviews, divided into 25,000 training reviews and 25,000 testing reviews. It also includes 50,000 additional unlabeled reviews. Each labeled record contains the review text and a sentiment label indicating positive (1) or negative (0) sentiment.
+
+### Unit of Analysis and Relevant Fields
+
+The unit of analysis is one written movie review. We will use two main fields:
+
+- `text`: The content of the movie review.
+- `label`: The sentiment label associated with the review.
+
+### Representative Examples
+
+The following examples illustrate the types of reviews our classifier is intended to analyze. They are examples we created, not verified records from the dataset.
+
+- **Positive:** "The performances were excellent, and the story kept me interested throughout the movie."
+- **Negative:** "The plot was boring, the acting was unconvincing, and the ending was disappointing."
+
+The expected output for each review is a positive or negative sentiment classification.
+
+### Access and Suitability
+
+We have confirmed that the Hugging Face dataset page is accessible. Our next step is to load the dataset in Python and verify that the review text and sentiment labels are available. The dataset is appropriate for this project because it provides labeled English-language reviews for training and evaluating a binary sentiment classifier.
+
+### Licensing and Data Limitations
+
+Before using or redistributing the dataset, we will review the dataset card and its licensing conditions. We plan to link to the original source rather than redistribute the full collection in our repository. Reviews may contain sarcasm, mixed opinions, or ambiguous language, which can make sentiment difficult to classify.
+
+### Backup Dataset
+
+If the primary dataset cannot be accessed or used as intended, we will consider the [Cornell Movie Review Data](https://www.cs.cornell.edu/people/pabo/movie-review-data/) as a backup, subject to verifying its availability and suitability.
