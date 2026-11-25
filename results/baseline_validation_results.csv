@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Majority-Class Baseline,0.5022195318805488,0.5022195318805488,1.0,0.6686366689053056
