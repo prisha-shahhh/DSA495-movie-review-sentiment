@@ -4,6 +4,7 @@
 
 - Prisha Shah
 - Laura Botnaru
+- Grishma Kuikel
 
 ## One-Sentence Task
 
